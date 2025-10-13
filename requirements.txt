@@ -3,8 +3,10 @@ langgraph
 langchain
 langchain-huggingface
 langchain-community
+langgraph-checkpoint-sqlite
 langchain-core
 python-dotenv
 langchain-groq
 faiss-cpu
+
 pypdf
