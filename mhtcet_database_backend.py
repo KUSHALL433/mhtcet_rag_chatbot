@@ -3,7 +3,7 @@ from langgraph.graph import StateGraph,START,END,MessagesState
 from langchain_huggingface import HuggingFaceEndpointEmbeddings,ChatHuggingFace,HuggingFaceEndpoint
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitter import RecursiveCharacterTextSplitter
 from typing import TypedDict,Annotated,Sequence
 from langchain_core.messages import BaseMessage,HumanMessage,ToolMessage,SystemMessage
 from langgraph.graph.message import add_messages
@@ -244,6 +244,7 @@ def delete_user_session(session_id: str):
 #         all_threads.add(checkpoint.config['configurable']['thread_id'])
         
 #     return list(all_threads)
+
 
 
 
